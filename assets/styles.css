@@ -184,7 +184,8 @@ a {
 }
 
 .hero-media {
-  margin-right: clamp(-7rem, -7vw, -1rem);
+  justify-self: end;
+  width: min(100%, 560px);
 }
 
 .hero-media img {
