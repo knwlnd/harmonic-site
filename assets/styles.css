@@ -39,10 +39,10 @@ a {
   position: sticky;
   top: 0;
   z-index: 20;
-  display: grid;
-  grid-template-columns: auto 1fr;
+  display: flex;
   gap: 1rem;
   align-items: center;
+  justify-content: space-between;
   padding: 1rem clamp(1rem, 3vw, 2rem);
   border-bottom: 1px solid var(--line);
   background: color-mix(in srgb, var(--paper) 88%, black);
@@ -58,6 +58,7 @@ a {
 
 .site-nav {
   display: flex;
+  margin-left: auto;
   justify-content: flex-end;
   gap: clamp(.7rem, 2vw, 1.3rem);
   font-size: .95rem;
@@ -370,6 +371,7 @@ a {
 
 @media (max-width: 860px) {
   .site-header {
+    display: grid;
     grid-template-columns: 1fr auto;
   }
 
