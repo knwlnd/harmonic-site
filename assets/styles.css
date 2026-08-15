@@ -40,7 +40,7 @@ a {
   top: 0;
   z-index: 20;
   display: grid;
-  grid-template-columns: auto 1fr auto;
+  grid-template-columns: auto 1fr;
   gap: 1rem;
   align-items: center;
   padding: 1rem clamp(1rem, 3vw, 2rem);
@@ -58,7 +58,7 @@ a {
 
 .site-nav {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: clamp(.7rem, 2vw, 1.3rem);
   font-size: .95rem;
 }

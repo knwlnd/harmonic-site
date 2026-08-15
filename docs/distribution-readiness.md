@@ -1,6 +1,6 @@
 # Distribution Readiness
 
-Harmonic alpha distribution is a separate packaging and release-readiness workstream. The public website should not claim that builds are signed, notarised, publicly downloadable or available through the App Store until those decisions are confirmed.
+Harmonic distribution is a separate packaging and release-readiness workstream. The public website should not claim that builds are signed, notarised, publicly downloadable or available through the App Store until those decisions are confirmed.
 
 ## Unresolved Questions
 

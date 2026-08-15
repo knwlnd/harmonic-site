@@ -12,7 +12,6 @@ Open `index.html` in a browser, or run any static file server from this director
 
 - `index.html`
 - `how-it-works.html`
-- `alpha.html`
 - `getting-started.html`
 - `roadmap.html`
 - `engineering.html`
